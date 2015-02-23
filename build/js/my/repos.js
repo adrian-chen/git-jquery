@@ -4,7 +4,7 @@ function myRepos(){
     // e.g., https://api.github.com/users/doubleshow/repos
 
     console.log('listing repos')
-    $.get("https://api.github.com/users/briannewsom/repos", github, function(data) {
+    $.get("https://api.github.com/users/adrian-chen/repos", github, function(data) {
  		 
         var repos = data
        $.get("/git-jquery/templates/repoList.jade", function(template) {
